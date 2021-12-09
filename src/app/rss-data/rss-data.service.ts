@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class RssDataService {
 
-  apiUrl = '../../assets/xml-files/rss.xml';
+  apiUrl = '../../assets/rss.xml';
 
   constructor(private http: HttpClient) { }
   
